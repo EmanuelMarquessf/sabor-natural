@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { defineProps } from "vue";
 
 defineProps({ title : String, icon: String, item1: String, item2: String, item3: String});

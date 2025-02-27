@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import OhVueIcon from "oh-vue-icons";
 import Header from "./components/Header.vue";
 import Home from "./components/Home.vue";
 import Carrousel from "./components/Carrousel.vue";
