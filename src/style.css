@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@theme {
+  --font-merienda: "Merienda"; 
+  --font-merriweather: "Merriweather"; 
+  --font-inter: "inter"; 
+
+
+  --color-whiteText: #E1E5D9;
+  --color-whiteText2:  #E6EFE7;
+  --color-whiteSecondaryText: #D0D7BF;
+  --color-darkGreenText: #000B00;
+  --color-darkBrownText: #150702;
+
+
+  --color-background: #F4F0BB;
+  --color-lightGreen: #A3C15E;
+  --color-lightGreen2: #7FA42D;
+  --color-darkGreen: #3A703A;
+  --color-darkGreen2: #3D5C3D;
+
+  --color-brown:#43291F;
+}
+
+body{
+  background-color: var(--color-background);
+}
